@@ -9,7 +9,7 @@
       table {
         font-family: arial, sans-serif;
         border-collapse: collapse;
-        width: 100%;
+        width: 30%;
       }
 
       td,
@@ -27,29 +27,30 @@
   <body>
     <table>
       <tr>
-        <td>S.No</td>
+        <th>S.No</th>
+        <th>Plant No</th>
         <th>Plant Name</th>
         <th>Quantity</th>
         <th>Photo</th>
       </tr>
 
-      {% for i,j,k in plantID %}
+      {% for i,j,k,l in plantID %}
       <tr>
         <td><b>{{i}}</b></td>
-        <td>{{k}}</td>
         <td>{{j}}</td>
-
+        <td>{{k}}</td>
+        <td>{{l}}</td>
         <td>
           <img
-            src="https://raw.githubusercontent.com/sshibinthomass/web-images/main/Plant/final%20compressed%2050kb/{{i}}.jpeg"
+            src="https://raw.githubusercontent.com/sshibinthomass/web-images/main/Plant/50kb/{{j}}.jpeg"
             alt="mypic"
-            width="100"
-            height="100"
+            width="256"
+            height="256"
           />
         </td>
       </tr>
       {% endfor %}
     </table>
-    <div class="img"></div>
+    <label><h3>Total Number of Plants: {{l2}}</h3></label>
   </body>
 </html>

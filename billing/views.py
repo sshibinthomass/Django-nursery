@@ -11,16 +11,21 @@ def find_val(val):
     plantQua=[]
     plantNam=[]
     allplant=[]
+    SNo=[]
+    count=1
     for i in val:
         a=re.split('-',i)
         plantNum.append(int(a[0]))
+        SNo.append(count)
+        count+=1
         try:
             plantQua.append(int(a[1]))
         except:
             plantQua.append(1)
+    lst.append(SNo)
     lst.append(plantNum)
-    lst.append(plantQua)
-    with open('C:/Users/shibi/Downloads/Plant.csv','r') as file:
+    tot=sum(plantQua)
+    with open('Plant.csv.','r') as file:
         reader=csv.reader(file)
         for i in reader:
             try:
@@ -31,8 +36,8 @@ def find_val(val):
     for i in lst[0]:
         l1.append(allplant[i])
     lst.append(l1)
-    return zip(lst[0],lst[1],lst[2])
-
+    lst.append(plantQua)
+    return zip(lst[0],lst[1],lst[2],lst[3]), tot
 
 
 def plantfinder(request):
@@ -40,5 +45,5 @@ def plantfinder(request):
 
 def plantlist(request):
     val=request.POST['plantnumb']
-    lst=find_val(val)
-    return render(request,'plantlist.html',{'plantID':lst})
+    lst,l2=find_val(val)
+    return render(request,'plantlist.html',{'plantID':lst,'l2':l2})

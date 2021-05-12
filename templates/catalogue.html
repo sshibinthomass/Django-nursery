@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catalogue</title>
+  </head>
+  <body>
+    {% for i,j,k,l in plants %}
+    <form method="post">
+      {% csrf_token %}
+      <img
+        src="https://raw.githubusercontent.com/sshibinthomass/web-images/main/Plant/50kb/{{i}}.jpeg"
+        width="256"
+        height="256"
+      />
+      <p>{{j}}</p>
+      <p>ID:{{i}}</p>
+      <p style="font-weight: bold">Size:2-3 inch</p>
+      <p>{{l}}</p>
+      <p>Transit Risk:Low</p>
+      <p>
+        <input
+          type="number"
+          name="quantity"
+          size="2"
+          value="1"
+          min="1"
+          max="10"
+        />
+      </p>
+      <div title="add to cart">
+        <input type="submit" value="Add to Cart" />
+      </div>
+    </form>
+    {% endfor %}
+    <table>
+      <tr>
+        <th>S.No</th>
+        <th>Plant No</th>
+        <th>Plant Name</th>
+        <th>Quantity</th>
+        <th>Photo</th>
+      </tr>
+
+      {% for i,j,k,l in plants1 %}
+      <tr>
+        <td><b>{{i}}</b></td>
+        <td>{{j}}</td>
+        <td>{{k}}</td>
+        <td>{{l}}</td>
+        <td>
+          <img
+            src="https://raw.githubusercontent.com/sshibinthomass/web-images/main/Plant/50kb/{{i}}.jpeg"
+            alt="mypic"
+            width="256"
+            height="256"
+          />
+        </td>
+      </tr>
+
+      {% endfor %}
+    </table>
+  </body>
+</html>
