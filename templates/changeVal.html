@@ -1,0 +1,107 @@
+{% extends 'base.html' %} 
+{% block style %} 
+<style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 30%;
+    }
+
+    td,
+    th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+  </style>
+{% endblock %}
+
+
+{% block body %}
+
+<table class="table table-hover">
+    <thead>
+      <tr>
+        <th scope="col">S.No</th>
+        <th scope="col">Plant No</th>
+        <th scope="col">Plant Name</th>
+        <th scope="col">Quantity</th>
+        <th scope="col">Price</th>
+        <th scope="col">Remove</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for i,j,k,l in bill %}
+      <tr>
+        <th scope="row">{{forloop.counter}}</th>
+        <td>{{i}}</td>
+        <td>{{j}}</td>
+        <td>{{k}}</td>
+        <td>{{l}}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+
+<table class="table table-hover">
+    <thead>
+    <tr>
+      <th scope="col">S.No</th>
+      <th scope="col">Name Scientific</th>
+      <th scope="col">Name Common</th>
+      <th scope="col">Price</th>
+      <th scope="col">Discount</th>
+      <th scope="col">Risk</th>
+      <th scope="col">Visible</th>
+      <th scope="col">Image</th>
+      <th scope="col">Update</th>
+    </tr>
+</thead>
+<tbody>
+    {% for i,j,k,l,m,n,o in plants %}
+    <tr>
+        <form action="" method="post">
+            {% csrf_token %}
+      <th scope="row"><b>{{i}}</b></th>
+      <td><input type="text" id="fname" name="fname" value="{{j}}"></td>
+      <td><input type="text" id="fname" name="fname" value="{{k}}"></td>
+      <td><input type="number" id="fname" name="fname" value="{{l}}"></td>
+      <td><input type="text" id="fname" name="fname" value="{{m}}"></td>
+      <td>
+        <select name="risk" id="risk">
+            <option selected>{{n}}</option>
+            <option value="Low Risk">Low Risk</option>
+            <option value="Medium Risk">Medium Risk</option>
+            <option value="High Risk">High Risk</option>
+          </select>  
+        </td>
+      <td>
+        <select name="available" id="available">
+            <option selected>{{o}}</option>
+            <option value="Low Risk">TRUE</option>
+            <option value="Medium Risk">FALSE</option>
+          </select>   
+        </td>
+      <td>
+        <img
+        src="https://raw.githubusercontent.com/sshibinthomass/web-images/main/Plant/50kb/{{i}}.jpeg"
+          alt="mypic"
+          width="100"
+          height="100"
+        />
+      </td>
+    <td><button type="submit" name="btn" value="{{i}}" class="btn btn-outline-success">Update</button></td>
+</form>
+</tr>
+
+    {% endfor %}
+    <tbody>
+  </table>
+
+
+{% endblock %}

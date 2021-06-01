@@ -1,164 +1,164 @@
-﻿S.No,Plant Name(SC),Plant Name(Common),price,visible,discount
-1,Sempervivum Tectorum,Red tip,150,TRUE,40
-2,Bergeranthus,Yellow Flower,80,TRUE,10
-3,Sedum Lineare(yellow),Yellow sedum,100,TRUE,20
-4,Haworthia cymbiformis,Stone,90,TRUE,20
-5,Chamaecerus Silvestii,Peanut Cactus,80,TRUE,10
-6,Sempervivum,Lakshmi Kamal,120,TRUE,20
-7,Echeveria peacockii,White Lotus,150,TRUE,30
-8,Jade Plant/ Crassula Portulacea,Jade miniature,120,TRUE,20
-9,Senecio Radicans,String of necklace,100,TRUE,30
-10,Zebrina Huernia ,Chocolate,150,FALSE,30
-11,Hoodia,Jack fruit,150,FALSE,30
-12,Callisia,Lavender,120,TRUE,20
-13,Crassula ovatha,Finger Jade,80,TRUE,20
-14,Echeveria Setosa,Diamond,90,TRUE,10
-15,Echeveria ,Echeveria ,100,TRUE,20
-16,Sedum Morganianum,Monkey Tail,100,FALSE,10
-17,Haworthiopsis Reinwardtii,Height Haworthia,150,FALSE,0
-18,Sinocrassula yunnanensis,Chinese Jade,150,TRUE,50
-19,Malephoracrocea,Oval,90,TRUE,10
-20,Opuntia Red ,Opentia Red,100,TRUE,10
-21,Opuntia yellow,Opentia Yellow,100,TRUE,20
-22,Graptopetalum Amethystinum,Moonstone,150,TRUE,30
-23,Echeveria Setosa,Velvet,100,TRUE,30
-24,Opuntia Monacantha,Tree Cactus,100,TRUE,30
-25,Kalanchoe Tomentosa (Chocolate Soldier),Rabbit ears,100,TRUE,20
-26,Echeveria Gilwa,Black Prince,120,TRUE,40
-27,Echeveria Akmalia,Bramha Prabhu,150,TRUE,30
-28,Echeveria elegans,Blue Echeviria,150,TRUE,30
-29,Aloe juvenna,Tiger Tooth Aloe,80,TRUE,0
-30,Haworthia Attenuata,Dot Haworthia,150,TRUE,0
-31,Mammillaria vetula,thimble cactus,120,FALSE,0
-32,Aloe Breuifolia,White Aloe,120,TRUE,40
-33,Aloe humilis,Grey Aloe,120,TRUE,40
-34,Faucaria Tigrina ,Chrocodile Teeth,120,TRUE,0
-35,Haworthia Resendeana,Normal Haworthia,150,TRUE,0
-36,Sedum Dasyphyllum,Face Sedum,100,FALSE,0
-37,Crassula tetragona,Cone Tree,80,TRUE,20
-38,Sedum Lineare(green),Green Sedum,80,TRUE,20
-39,Radiator Plant,Radiator,80,TRUE,0
-40,Short leaved Aloe/Aloe Brevipolia,Brown Aloe,100,TRUE,30
-41,Senecio Cephalophorus,Cabbage succulent,100,FALSE,0
-42,chlorophytum laxum,Zebra Grass,60,FALSE,0
-43,Fairy Castle cactus,Fairy Castle,100,FALSE,30
-44,Echeveria Runyonii,Curve Echeveria,120,TRUE,30
-45,Kalanchoe ,Kalanchoe ,100,FALSE,0
-46,Pereskiopsis,Tree Succulent,80,TRUE,0
-47,Dianthus,Dianthus,80,FALSE,0
-48,Peperomia caperata,Pepromia Long leaf,120,FALSE,0
-49,Hydrangea,Hydrangea,60,TRUE,0
-50,Wax Ivy,Wax Ivy,60,TRUE,20
-51,Camelia,Camelia,150,FALSE,0
-52,Crassula ovata,Jade,80,TRUE,20
-53,Haworthia fasciata Zebra,Haworthia Zebra,200,FALSE,0
-54,Sempervivum arachnoideum,Cob Web,80,FALSE,0
-55,Crassula capitella ,camp fire,100,TRUE,20
-56,Opuntia white ,Opentia white,100,TRUE,20
-57,Syngonium podophyllum,arrowhead,100,FALSE,0
-58,Resnova,Indoor Big Leaf,120,FALSE,0
-59,Cheiridopsis denticulata,Oval Flower,100,FALSE,20
-60,Peperomia caperata,Pepromia Purple,100,TRUE,20
-61,Acanthocalycium,Ball Cactus,120,FALSE,20
-62,Aloe brevifolia /short-leaved aloe,White Aloe(S-L),150,TRUE,0
-63,Echinopsis subdenudata,Ball white flower,150,FALSE,0
-64,Echeveria setosa,,200,FALSE,0
-65,Crassula Falcata,Boat,120,FALSE,0
-66,Haworthia bayeri,,150,FALSE,0
-67,Haworthiopsis attenuata,Haworthia Fat,150,TRUE,0
-68,Haworthiopsis coarctata,Haworthia Dot,150,TRUE,0
-69,Haworth's aeonium ,Haworth's aeonium ,120,FALSE,0
-70,Echeveria agavoides,Rangoli Echeviria,150,FALSE,0
-71,Pachyphytum oviferum,Grey Moonstone,120,FALSE,0
-72,string of pearls,string of pearls,120,TRUE,20
-73,Dracaena trifasciata,Snake Draft Yellow Border,150,FALSE,0
-74,Senecio barbertonicus,,150,FALSE,0
-75,Adromischus Cristatus,Panda,150,FALSE,0
-76,Haworthiopsis limifolia,Haworthia Rough,150,FALSE,0
-77,Anacampseros Baeseckei,Seed Plant,100,TRUE,20
-78,Aloe vera,,150,FALSE,0
-79,Gasteria,Dot Aloe,200,FALSE,0
-80,Crassula capitella Thyrsiflora (Jain temple),Jain Temple,100,TRUE,20
-81,English ivy,English Verigated ivy,60,TRUE,20
-82,Vinca major,Vinca,60,TRUE,20
-83,Hedera Ivy,Hedra Ivy,60,TRUE,20
-84,Drimiopsis,Indoor small leaf,120,TRUE,20
-85,Sedum lineare(silver),Silver sedum,80,TRUE,10
-86,haworthia decipiens,Haworthia green,120,TRUE,40
-87,echeveria glauca cristata,White stick,120,TRUE,40
-88,Hechtia glauca,Green Aloe,120,TRUE,0
-89,Echeveria nuda,Green Echeviria,120,FALSE,0
-90,portulakarea,Umbrella,120,FALSE,0
-91,Crassula perforata,Chilly,120,TRUE,0
-92,fishbone cactus,Fishbone,100,FALSE,0
-93,Chlorophytum comosum/spider plant,Chlorophytm,60,TRUE,10
-94,,Change Color,100,FALSE,0
-95,serissafoetida,Bad smell,80,FALSE,20
-96,Stapelia Lepida,Tiger Flower,150,TRUE,30
-97,Euphorbia flanaganii,medusa's head,120,TRUE,0
-98,Euphorbia ferox,Bomb,120,FALSE,0
-99,Aeonium arboreum/green,Aeonium Green,100,TRUE,20
-100,Aeonium arboreum/Purple,Aeonium Purple,120,TRUE,20
-101,crassula exilis,Tiger sedum,100,FALSE,0
-102,Sansevieria zeylanica,Snake Long,100,FALSE,0
-103,blue chalksticks,Blue stick,80,TRUE,20
-104,Christmas cactus,Christmas Cactus,120,FALSE,20
-105,Spyder plant/ iris,Iris,60,TRUE,20
-106,Sansevieria Compacta Dwarf,Snake Draft Long,100,FALSE,0
-107,Delosperma,Rough Sedum,80,FALSE,0
-108,Crassula ovata/ Jade plant (verigated),Jade Verigated,100,TRUE,20
-109,Sedum Morganianum,Donkey Tail,100,FALSE,0
-110,Sedeveria 'Harry Butterfield' ,Super Donkey Tail,100,FALSE,0
-111,String of tears,String of tears,120,TRUE,20
-112,Crassula muscosa,lizard's tail,80,TRUE,0
-113,Syngonium/golden yellow,Syngonium yellow,100,FALSE,0
-114,Syngonium/golden green,Syngonium green,100,FALSE,0
-115,peace lily,peace lily,100,FALSE,20
-116,aloe brown,,150,FALSE,0
-117,Sedum rubrotinctum,jelly bean,80,TRUE,0
-118,Lavandula lanata,woolly lavender,100,FALSE,0
-119,African violet,African violet,150,FALSE,0
-120,Peperomia obtusifolia variegated green,Peperomia ver green,120,TRUE,20
-121,Peperomia obtusifolia/green,,100,FALSE,0
-122,Peperomia obtusifolia,,120,FALSE,0
-123,Peperomia obtusifolia variegated,,120,FALSE,0
-124,Portulaka variegated,Portulaka Verigated,80,TRUE,20
-125,turtle wine,Turtle wine,60,TRUE,0
-126,snake plant (verigated draft),Snake Draft Verigated,150,FALSE,20
-127,Aeonium Silver,Aeonium Silver,100,TRUE,20
-128,Jellybean stonecrop,,100,FALSE,0
-129,Graptosedum,Sun Sedum,100,TRUE,0
-130,Sedum crassulaceae,Grey Sedum,100,TRUE,30
-131,Senecio barbertonicus,Green Stick,100,TRUE,20
-132,heartleaf philodendron,Heart Leaf,80,TRUE,40
-133,Sedum acre (Gold moss),Gold Moss,100,FALSE,20
-134,Sedum stonecrops,Sedum stonecrops,100,FALSE,20
-135,Sedum Pachychyllum,Fingure Succulent,100,TRUE,0
-136,Pilea cadierei,Pilea,120,FALSE,0
-137,sedum chamomile,Grass Sedum,80,TRUE,0
-138,Cotyledon tomentosa ,bear's paw,150,FALSE,0
-139,Ceropegia woodii ,string of hearts,150,FALSE,0
-140,Kleinia petraea,creeping jade,60,FALSE,0
-141,Graptopetalum ,,80,FALSE,0
-142,Sedum nussbaumerianum,coppertone,80,FALSE,0
-143,Graptopetalum paraguayense ,Ghost plant,80,FALSE,0
-144,Aloe Camperi ,Purple Aloe,80,FALSE,0
-145,Gasteria Bicolor Liliputana,Miniature Aloe,120,TRUE,20
-146,Crassula ovata verigated,Tricolour jade,120,FALSE,0
-147,Crassula ovata ,jade big leaf,80,TRUE,0
-148,Hedera rhombea,Common ivy,60,TRUE,20
-149,Hedera helix ,English ivy Green,60,TRUE,20
-150,alligator plant,mother of thousands,100,FALSE,20
-151,Peperomia caperata/ green,Pepromia Grey,100,TRUE,10
-152,Ophiopogon japonicus,lilyturf,100,FALSE,10
-153,Aeonium arboreum/verigated,Aeonium Verigated,150,TRUE,30
-154,Peperomia rubella,,100,FALSE,0
-155,Rebutia,Ball Flower,150,TRUE,30
-156,Echeveria prolifica,Close Fingure,120,TRUE,30
-157,Kalanchoe daigremontiana,devil's backbone,80,FALSE,0
-158,Aeonium haworthii,Aeonium Draft,100,FALSE,20
-159,Red Tip (Big),Red Tip (Big),200,TRUE,50
-160,Echeviria (Big),Echeviria (Big),200,TRUE,50
-161,,portulaka(green),80,TRUE,20
-162,,needle sedum,120,TRUE,20
-,,,200,FALSE,50
+﻿S.No,Plant Name(SC),Plant Name(Common),price,visible,discount,Risk
+1,Sempervivum Tectorum,Red tip,150,TRUE,40,Low Risk
+2,Bergeranthus,Yellow Flower,80,TRUE,10,Low Risk
+3,Sedum Lineare(yellow),Yellow sedum,100,TRUE,20,High Risk
+4,Haworthia cymbiformis,Stone,90,TRUE,20,Low Risk
+5,Chamaecerus Silvestii,Peanut Cactus,80,TRUE,10,High Risk
+6,Sempervivum,Lakshmi Kamal,120,TRUE,20,Low Risk
+7,Echeveria peacockii,White Lotus,150,TRUE,30,Low Risk
+8,Jade Plant/ Crassula Portulacea,Jade miniature,120,TRUE,20,Low Risk
+9,Senecio Radicans,String of necklace,100,TRUE,30,Moderate Risk
+10,Zebrina Huernia ,Chocolate,150,FALSE,30,Low Risk
+11,Hoodia,Jack fruit,150,FALSE,30,Low Risk
+12,Callisia,Lavender,120,TRUE,20,High Risk
+13,Crassula ovatha,Finger Jade,80,TRUE,20,Low Risk
+14,Echeveria Setosa,Diamond,90,TRUE,10,Low Risk
+15,Echeveria ,Echeveria ,100,TRUE,20,Low Risk
+16,Sedum Morganianum,Monkey Tail,100,FALSE,10,Low Risk
+17,Haworthiopsis Reinwardtii,Height Haworthia,150,FALSE,0,Low Risk
+18,Sinocrassula yunnanensis,Chinese Jade,150,TRUE,50,Moderate Risk
+19,Malephoracrocea,Oval,90,TRUE,10,Low Risk
+20,Opuntia Red ,Opentia Red,100,TRUE,10,Low Risk
+21,Opuntia yellow,Opentia Yellow,100,TRUE,20,Low Risk
+22,Graptopetalum Amethystinum,Moonstone,150,TRUE,30,High Risk
+23,Echeveria Setosa,Velvet,100,TRUE,30,Low Risk
+24,Opuntia Monacantha,Tree Cactus,100,TRUE,30,Low Risk
+25,Kalanchoe Tomentosa (Chocolate Soldier),Rabbit ears,100,TRUE,20,Low Risk
+26,Echeveria Gilwa,Black Prince,120,TRUE,40,Low Risk
+27,Echeveria Akmalia,Bramha Prabhu,150,TRUE,30,Low Risk
+28,Echeveria elegans,Blue Echeviria,150,TRUE,30,High Risk
+29,Aloe juvenna,Tiger Tooth Aloe,80,TRUE,0,Low Risk
+30,Haworthia Attenuata,Dot Haworthia,150,TRUE,0,Low Risk
+31,Mammillaria vetula,thimble cactus,120,FALSE,0,Low Risk
+32,Aloe Breuifolia,White Aloe,120,TRUE,40,Low Risk
+33,Aloe humilis,Grey Aloe,120,TRUE,40,Low Risk
+34,Faucaria Tigrina ,Chrocodile Teeth,120,TRUE,0,Moderate Risk
+35,Haworthia Resendeana,Normal Haworthia,150,TRUE,0,Low Risk
+36,Sedum Dasyphyllum,Face Sedum,100,FALSE,0,High Risk
+37,Crassula tetragona,Cone Tree,80,TRUE,20,Low Risk
+38,Sedum Lineare(green),Green Sedum,80,TRUE,20,High Risk
+39,Radiator Plant,Radiator,80,TRUE,0,Low Risk
+40,Short leaved Aloe/Aloe Brevipolia,Brown Aloe,100,TRUE,30,Low Risk
+41,Senecio Cephalophorus,Cabbage succulent,100,FALSE,0,Low Risk
+42,chlorophytum laxum,Zebra Grass,60,FALSE,0,Moderate Risk
+43,Fairy Castle cactus,Fairy Castle,100,FALSE,30,Low Risk
+44,Echeveria Runyonii,Curve Echeveria,120,TRUE,30,Low Risk
+45,Kalanchoe ,Kalanchoe ,100,FALSE,0,Moderate Risk
+46,Pereskiopsis,Tree Succulent,80,TRUE,0,Low Risk
+47,Dianthus,Dianthus,80,FALSE,0,High Risk
+48,Peperomia caperata,Pepromia Long leaf,120,FALSE,0,High Risk
+49,Hydrangea,Hydrangea,60,TRUE,0,Moderate Risk
+50,Wax Ivy,Wax Ivy,60,TRUE,20,Moderate Risk
+51,Camelia,Camelia,150,FALSE,0,Moderate Risk
+52,Crassula ovata,Jade,80,TRUE,20,Low Risk
+53,Haworthia fasciata Zebra,Haworthia Zebra,200,FALSE,0,Low Risk
+54,Sempervivum arachnoideum,Cob Web,80,FALSE,0,Moderate Risk
+55,Crassula capitella ,camp fire,100,TRUE,20,Low Risk
+56,Opuntia white ,Opentia white,100,TRUE,20,Low Risk
+57,Syngonium podophyllum,arrowhead,100,FALSE,0,High Risk
+58,Resnova,Indoor Big Leaf,120,FALSE,0,Moderate Risk
+59,Cheiridopsis denticulata,Oval Flower,100,FALSE,20,Low Risk
+60,Peperomia caperata,Pepromia Purple,100,TRUE,20,High Risk
+61,Acanthocalycium,Ball Cactus,120,FALSE,20,Low Risk
+62,Aloe brevifolia /short-leaved aloe,White Aloe(S-L),150,TRUE,0,Low Risk
+63,Echinopsis subdenudata,Ball white flower,150,FALSE,0,Low Risk
+64,Echeveria setosa,,200,FALSE,0,Moderate Risk
+65,Crassula Falcata,Boat,120,FALSE,0,Low Risk
+66,Haworthia bayeri,,150,FALSE,0,Low Risk
+67,Haworthiopsis attenuata,Haworthia Fat,150,TRUE,0,Low Risk
+68,Haworthiopsis coarctata,Haworthia Dot,150,TRUE,0,Low Risk
+69,Haworth's aeonium ,Haworth's aeonium ,120,FALSE,0,Moderate Risk
+70,Echeveria agavoides,Rangoli Echeviria,150,FALSE,0,Low Risk
+71,Pachyphytum oviferum,Grey Moonstone,120,FALSE,0,Low Risk
+72,string of pearls,string of pearls,120,TRUE,20,High Risk
+73,Dracaena trifasciata,Snake Draft Yellow Border,150,FALSE,0,Low Risk
+74,Senecio barbertonicus,,150,FALSE,0,Low Risk
+75,Adromischus Cristatus,Panda,150,FALSE,0,Low Risk
+76,Haworthiopsis limifolia,Haworthia Rough,150,FALSE,0,Low Risk
+77,Anacampseros Baeseckei,Seed Plant,100,TRUE,20,Moderate Risk
+78,Aloe vera,,150,FALSE,0,Low Risk
+79,Gasteria,Dot Aloe,200,FALSE,0,Low Risk
+80,Crassula capitella Thyrsiflora (Jain temple),Jain Temple,100,TRUE,20,Low Risk
+81,English ivy,English Verigated ivy,60,TRUE,20,Moderate Risk
+82,Vinca major,Vinca,60,TRUE,20,High Risk
+83,Hedera Ivy,Hedra Ivy,60,TRUE,20,Moderate Risk
+84,Drimiopsis,Indoor small leaf,120,TRUE,20,Moderate Risk
+85,Sedum lineare(silver),Silver sedum,80,TRUE,10,High Risk
+86,haworthia decipiens,Haworthia green,120,TRUE,40,Moderate Risk
+87,echeveria glauca cristata,White stick,120,TRUE,40,Low Risk
+88,Hechtia glauca,Green Aloe,120,TRUE,0,Low Risk
+89,Echeveria nuda,Green Echeviria,120,FALSE,0,Low Risk
+90,portulakarea,Umbrella,120,FALSE,0,Moderate Risk
+91,Crassula perforata,Chilly,120,TRUE,0,Low Risk
+92,fishbone cactus,Fishbone,100,FALSE,0,Low Risk
+93,Chlorophytum comosum/spider plant,Chlorophytm,60,TRUE,10,Moderate Risk
+94,,Change Color,100,FALSE,0,High Risk
+95,serissafoetida,Bad smell,80,FALSE,20,Moderate Risk
+96,Stapelia Lepida,Tiger Flower,150,TRUE,30,Moderate Risk
+97,Euphorbia flanaganii,medusa's head,120,TRUE,0,Low Risk
+98,Euphorbia ferox,Bomb,120,FALSE,0,Low Risk
+99,Aeonium arboreum/green,Aeonium Green,100,TRUE,20,Moderate Risk
+100,Aeonium arboreum/Purple,Aeonium Purple,120,TRUE,20,High Risk
+101,crassula exilis,Tiger sedum,100,FALSE,0,High Risk
+102,Sansevieria zeylanica,Snake Long,100,FALSE,0,Moderate Risk
+103,blue chalksticks,Blue stick,80,TRUE,20,Low Risk
+104,Christmas cactus,Christmas Cactus,120,FALSE,20,Low Risk
+105,Spyder plant/ iris,Iris,60,TRUE,20,Moderate Risk
+106,Sansevieria Compacta Dwarf,Snake Draft Long,100,FALSE,0,Low Risk
+107,Delosperma,Rough Sedum,80,FALSE,0,Moderate Risk
+108,Crassula ovata/ Jade plant (verigated),Jade Verigated,100,TRUE,20,Low Risk
+109,Sedum Morganianum,Donkey Tail,100,FALSE,0,Moderate Risk
+110,Sedeveria 'Harry Butterfield' ,Super Donkey Tail,100,FALSE,0,Moderate Risk
+111,String of tears,String of tears,120,TRUE,20,High Risk
+112,Crassula muscosa,lizard's tail,80,TRUE,0,Moderate Risk
+113,Syngonium/golden yellow,Syngonium yellow,100,FALSE,0,High Risk
+114,Syngonium/golden green,Syngonium green,100,FALSE,0,High Risk
+115,peace lily,peace lily,100,FALSE,20,High Risk
+116,aloe brown,,150,FALSE,0,Low Risk
+117,Sedum rubrotinctum,jelly bean,80,TRUE,0,High Risk
+118,Lavandula lanata,woolly lavender,100,FALSE,0,Moderate Risk
+119,African violet,African violet,150,FALSE,0,High Risk
+120,Peperomia obtusifolia variegated green,Peperomia ver green,120,TRUE,20,Low Risk
+121,Peperomia obtusifolia/green,,100,FALSE,0,Low Risk
+122,Peperomia obtusifolia,,120,FALSE,0,Low Risk
+123,Peperomia obtusifolia variegated,,120,FALSE,0,Low Risk
+124,Portulaka variegated,Portulaka Verigated,80,TRUE,20,Moderate Risk
+125,turtle wine,Turtle wine,60,TRUE,0,Moderate Risk
+126,snake plant (verigated draft),Snake Draft Verigated,150,FALSE,20,Low Risk
+127,Aeonium Silver,Aeonium Silver,100,TRUE,20,Moderate Risk
+128,Jellybean stonecrop,,100,FALSE,0,High Risk
+129,Graptosedum,Sun Sedum,100,TRUE,0,Moderate Risk
+130,Sedum crassulaceae,Grey Sedum,100,TRUE,30,Moderate Risk
+131,Senecio barbertonicus,Green Stick,100,TRUE,20,Low Risk
+132,heartleaf philodendron,Heart Leaf,80,TRUE,40,Moderate Risk
+133,Sedum acre (Gold moss),Gold Moss,100,FALSE,20,Moderate Risk
+134,Sedum stonecrops,Sedum stonecrops,100,FALSE,20,Moderate Risk
+135,Sedum Pachychyllum,Fingure Succulent,100,TRUE,0,Low Risk
+136,Pilea cadierei,Pilea,120,FALSE,0,High Risk
+137,sedum chamomile,Grass Sedum,80,TRUE,0,Moderate Risk
+138,Cotyledon tomentosa ,bear's paw,150,FALSE,0,Moderate Risk
+139,Ceropegia woodii ,string of hearts,150,FALSE,0,High Risk
+140,Kleinia petraea,creeping jade,60,FALSE,0,Low Risk
+141,Graptopetalum ,,80,FALSE,0,High Risk
+142,Sedum nussbaumerianum,coppertone,80,FALSE,0,Moderate Risk
+143,Graptopetalum paraguayense ,Ghost plant,80,FALSE,0,High Risk
+144,Aloe Camperi ,Purple Aloe,80,FALSE,0,Low Risk
+145,Gasteria Bicolor Liliputana,Miniature Aloe,120,TRUE,20,Low Risk
+146,Crassula ovata verigated,Tricolour jade,120,FALSE,0,Low Risk
+147,Crassula ovata ,jade big leaf,80,TRUE,0,Low Risk
+148,Hedera rhombea,Common ivy,60,TRUE,20,Moderate Risk
+149,Hedera helix ,English ivy Green,60,TRUE,20,Moderate Risk
+150,alligator plant,mother of thousands,100,FALSE,20,Low Risk
+151,Peperomia caperata/ green,Pepromia Grey,100,TRUE,10,High Risk
+152,Ophiopogon japonicus,lilyturf,100,FALSE,10,Moderate Risk
+153,Aeonium arboreum/verigated,Aeonium Verigated,150,TRUE,30,Moderate Risk
+154,Peperomia rubella,,100,FALSE,0,High Risk
+155,Rebutia,Ball Flower,150,TRUE,30,Low Risk
+156,Echeveria prolifica,Close Fingure,120,TRUE,30,Low Risk
+157,Kalanchoe daigremontiana,devil's backbone,80,FALSE,0,Low Risk
+158,Aeonium haworthii,Aeonium Draft,100,FALSE,20,Low Risk
+159,Red Tip (Big),Red Tip (Big),200,TRUE,50,Low Risk
+160,Echeviria (Big),Echeviria (Big),200,TRUE,50,Low Risk
+161,,portulaka(green),80,TRUE,20,Moderate Risk
+162,,needle sedum,120,TRUE,20,High Risk
+,,,200,FALSE,50,Moderate Risk

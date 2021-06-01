@@ -1,26 +1,99 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Catalogue</title>
-  </head>
-  <body>
-    {% for i,j,k,l in plants %}
-    <form method="post">
+{% extends 'base.html' %} 
+
+{% block body %}
+<div class="alert alert-warning text-center" role="alert">
+Please switch to desktop mode for better experience in shop page.
+</div>
+
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">S.No</th>
+      <th scope="col">Plant No</th>
+      <th scope="col">Plant Name</th>
+      <th scope="col">Quantity</th>
+      <th scope="col">Price</th>
+      <th scope="col">Remove</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for i,j,k,l in bill %}
+    <tr>
+      <th scope="row">{{forloop.counter}}</th>
+      <td>{{i}}</td>
+      <td>{{j}}</td>
+      <td>{{k}}</td>
+      <td>{{l}}</td>
+      <td>
+        <form action="" method="post">
+          {% csrf_token %}
+        <button type="submit" class="btn-close" aria-label="Close" name="button1" value="{{forloop.counter}}.Remove">
+        </button>
+        </form>
+      </td>
+    </tr>
+    {% endfor %}
+    <tr class="table-dark">
+      <th></th>
+      <td></td>
+      <td>Total</td>
+      <td>{{sumQua}}</td>
+      <td>{{sumPrice}}</td>
+      <td>
+        <form action="" method="post">
+          {% csrf_token %}
+        
+          <button type="submit" name="button1" value="Clear cart" class="btn btn-outline-danger d-grid gap-2 d-md-flex justify-content-md-end">Clear cart</button>
+        </form>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<h1>Please select your place before selecting plants (Plants will be filtered by location)</h1>
+<form action="" method="post">
+  {% csrf_token %}
+<div class="input-group">
+  <select class="form-select" id="inputGroupSelect04" aria-label="Example select with button addon" name="state_sel" >
+    <option>Select State</option>
+    {% for i,j in state %}
+    <option name="state_sel" value="{{i}}">{{j}}</option>
+    {% endfor %}
+  </select>
+
+  <select class="form-select" id="inputGroupSelect04" aria-label="Example select with button addon" name="cat_sel" >
+    <option>Type Select</option>
+    {% for i in catagory %}
+    
+    <option name="cat_sel" value="{{i}}">{{i}}</option>
+    {% endfor %}
+  </select>
+  <button class="btn btn-outline-secondary" name="button1" type="submit">Submit Option</button>
+</div>
+</form>
+<p>{{save.state}}</p>
+<p>{{save.risk}}</p>
+<p>{{save.type}}</p>
+<table>
+    {% for i,j,k,l,m in plants %}
+    {% cycle '<tr>' '' '' '' '' %}
+    <td>
+      <div class="card">
+    <form action="" method="post">
       {% csrf_token %}
+      <div class="view overlay text-center">
       <img
         src="https://raw.githubusercontent.com/sshibinthomass/web-images/main/Plant/50kb/{{i}}.jpeg"
         width="256"
         height="256"
       />
-      <p>{{j}}</p>
-      <p>ID:{{i}}</p>
-      <p style="font-weight: bold">Size:2-3 inch</p>
-      <p>{{l}}</p>
-      <p>Transit Risk:Low</p>
-      <p>
+      </div>
+      <div class="card-body text-center">
+        
+      <h6 ><strong>{{i}}</strong>. {{j}}</h6>
+      <h6 style="font-weight: bold">Size:2-3 inch</h6>
+      <h6>{{l}}</h6>
+      <h6>Transit:{{m}}</h6>
+      <h6>
         <input
           type="number"
           name="quantity"
@@ -29,38 +102,12 @@
           min="1"
           max="10"
         />
-      </p>
-      <div title="add to cart">
-        <input type="submit" value="Add to Cart" />
+      </h6>
+      <button type="submit" name="button1" value="{{i}}. Add to cart" class="btn btn-outline-success">Add to cart</button>
       </div>
     </form>
+  </div>
+  </td>
     {% endfor %}
-    <table>
-      <tr>
-        <th>S.No</th>
-        <th>Plant No</th>
-        <th>Plant Name</th>
-        <th>Quantity</th>
-        <th>Photo</th>
-      </tr>
-
-      {% for i,j,k,l in plants1 %}
-      <tr>
-        <td><b>{{i}}</b></td>
-        <td>{{j}}</td>
-        <td>{{k}}</td>
-        <td>{{l}}</td>
-        <td>
-          <img
-            src="https://raw.githubusercontent.com/sshibinthomass/web-images/main/Plant/50kb/{{i}}.jpeg"
-            alt="mypic"
-            width="256"
-            height="256"
-          />
-        </td>
-      </tr>
-
-      {% endfor %}
-    </table>
-  </body>
-</html>
+  </table>
+{% endblock %}
