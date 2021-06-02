@@ -1,9 +1,7 @@
 from django.shortcuts import render
 import csv
-import reportlab
 import io
 from django.http import FileResponse
-from reportlab.pdfgen import canvas
 # Create your views here.
 
 

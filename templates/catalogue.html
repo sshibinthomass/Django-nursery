@@ -74,7 +74,7 @@ Please switch to desktop mode for better experience in shop page.
 <p>{{save.risk}}</p>
 <p>{{save.type}}</p>
 <table>
-    {% for i,j,k,l,m in plants %}
+    {% for i,j,k,l,m,n in plants %}
     {% cycle '<tr>' '' '' '' '' %}
     <td>
       <div class="card">
@@ -91,7 +91,11 @@ Please switch to desktop mode for better experience in shop page.
         
       <h6 ><strong>{{i}}</strong>. {{j}}</h6>
       <h6 style="font-weight: bold">Size:2-3 inch</h6>
-      <h6>{{l}}</h6>
+      {% ifequal n l %}
+      <h6><b>&#8377; {{l}}</b> </h6>
+      {% else %}
+      <h6><s>&#8377;{{n}}</s>  <b>&#8377; {{l}}</b> </h6>
+      {% endifequal  %}
       <h6>Transit:{{m}}</h6>
       <h6>
         <input

@@ -1,4 +1,5 @@
 {% extends 'base.html' %} 
+{% load mathfilters %}
 {% block style %} 
 <style>
     table {
@@ -22,32 +23,6 @@
 
 
 {% block body %}
-
-<table class="table table-hover">
-    <thead>
-      <tr>
-        <th scope="col">S.No</th>
-        <th scope="col">Plant No</th>
-        <th scope="col">Plant Name</th>
-        <th scope="col">Quantity</th>
-        <th scope="col">Price</th>
-        <th scope="col">Remove</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% for i,j,k,l in bill %}
-      <tr>
-        <th scope="row">{{forloop.counter}}</th>
-        <td>{{i}}</td>
-        <td>{{j}}</td>
-        <td>{{k}}</td>
-        <td>{{l}}</td>
-      </tr>
-      {% endfor %}
-    </tbody>
-  </table>
-
-
 <table class="table table-hover">
     <thead>
     <tr>
@@ -56,6 +31,7 @@
       <th scope="col">Name Common</th>
       <th scope="col">Price</th>
       <th scope="col">Discount</th>
+      <th scope="col">Sales Price</th>
       <th scope="col">Risk</th>
       <th scope="col">Visible</th>
       <th scope="col">Image</th>
@@ -68,12 +44,13 @@
         <form action="" method="post">
             {% csrf_token %}
       <th scope="row"><b>{{i}}</b></th>
-      <td><input type="text" id="fname" name="fname" value="{{j}}"></td>
-      <td><input type="text" id="fname" name="fname" value="{{k}}"></td>
-      <td><input type="number" id="fname" name="fname" value="{{l}}"></td>
-      <td><input type="text" id="fname" name="fname" value="{{m}}"></td>
+      <td><input type="text" name="VNameO" id="fname" value="{{j}}"></td>
+      <td><input type="text" name="VNameC" id="fname" value="{{k}}"></td>
+      <td><input type="number" name="VPrice" id="fname" value="{{l}}"></td>
+      <td><input type="number" name="VDiscount" id="fname" value="{{m}}"></td>
+      <td><p>{{ l | add:m }}</p></td>
       <td>
-        <select name="risk" id="risk">
+        <select name="VRisk" id="risk">
             <option selected>{{n}}</option>
             <option value="Low Risk">Low Risk</option>
             <option value="Medium Risk">Medium Risk</option>
@@ -81,10 +58,10 @@
           </select>  
         </td>
       <td>
-        <select name="available" id="available">
+        <select name="VVisible" id="available">
             <option selected>{{o}}</option>
-            <option value="Low Risk">TRUE</option>
-            <option value="Medium Risk">FALSE</option>
+            <option value="TRUE">TRUE</option>
+            <option value="FALSE">FALSE</option>
           </select>   
         </td>
       <td>
@@ -100,6 +77,44 @@
 </tr>
 
     {% endfor %}
+    <tr>
+      <form action="" method="post">
+          {% csrf_token %}
+    <td>        
+      <input
+      type="number"
+      name="ASNO"
+      size="2"
+      value="1"
+      min="1"
+      max="999"
+    /></td>
+    <td><input type="text" name="ANameO" id="fname" value="orginal name"></td>
+    <td><input type="text" name="ANameC" id="fname" value="common name"></td>
+    <td><input type="number" name="APrice" id="fname" value="0"></td>
+    <td><input type="number" name="ADiscount" id="fname" value="0"></td>
+    <td><p></p></td>
+    <td>
+      <select name="ARisk" id="risk">
+          <option selected>Low Risk</option>
+          <option value="Low Risk">Low Risk</option>
+          <option value="Medium Risk">Medium Risk</option>
+          <option value="High Risk">High Risk</option>
+        </select>  
+      </td>
+    <td>
+      <select name="AVisible" id="available">
+          <option selected>TRUE</option>
+          <option value="TRUE">TRUE</option>
+          <option value="FALSE">FALSE</option>
+        </select>   
+      </td>
+    <td>
+      <p>Photo</p>
+    </td>
+  <td><button type="submit" name="btn1" value="add" class="btn btn-outline-info">Add</button></td>
+</form>
+</tr>
     <tbody>
   </table>
 
